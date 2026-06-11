@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Data (re-downloadable via Kaggle API in data_loader.py)
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Office temp/lock files (created while a doc is open)
+~$*
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
